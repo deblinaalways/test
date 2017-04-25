@@ -18,6 +18,7 @@
 		982BFF381EAFA9E60036858D /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF371EAFA9E60036858D /* PersonModel.swift */; };
 		982BFF3D1EAFB5EE0036858D /* AddPersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF3C1EAFB5ED0036858D /* AddPersonTableViewController.swift */; };
 		982BFF421EAFBC4F0036858D /* AddPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */; };
+		982BFF491EAFCFA10036858D /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF481EAFCFA10036858D /* TestTableViewController.swift */; };
 		AEDCB78A192B837BA3103ACD /* Pods_MVVMRealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398D02E7A4F7924CDD3F810E /* Pods_MVVMRealmSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		982BFF371EAFA9E60036858D /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
 		982BFF3C1EAFB5ED0036858D /* AddPersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonTableViewController.swift; sourceTree = "<group>"; };
 		982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewModel.swift; sourceTree = "<group>"; };
+		982BFF481EAFCFA10036858D /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		982BFF181EAFA3590036858D /* MVVMRealmSwift */ = {
 			isa = PBXGroup;
 			children = (
+				982BFF471EAFCF3D0036858D /* Test Group */,
 				982BFF451EAFBC960036858D /* Add Person View Model */,
 				982BFF441EAFBC7F0036858D /* Person Model */,
 				982BFF401EAFB70C0036858D /* StoryBoard */,
@@ -168,6 +171,14 @@
 				982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */,
 			);
 			name = "Add Person View Model";
+			sourceTree = "<group>";
+		};
+		982BFF471EAFCF3D0036858D /* Test Group */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF481EAFCFA10036858D /* TestTableViewController.swift */,
+			);
+			name = "Test Group";
 			sourceTree = "<group>";
 		};
 		9FB6A2DCDE241A636765A7E6 /* Pods */ = {
@@ -308,6 +319,7 @@
 				982BFF361EAFA8C70036858D /* PersonViewModel.swift in Sources */,
 				982BFF3D1EAFB5EE0036858D /* AddPersonTableViewController.swift in Sources */,
 				982BFF2F1EAFA4550036858D /* Person.swift in Sources */,
+				982BFF491EAFCFA10036858D /* TestTableViewController.swift in Sources */,
 				982BFF311EAFA54F0036858D /* Car.swift in Sources */,
 				982BFF1A1EAFA3590036858D /* AppDelegate.swift in Sources */,
 				982BFF421EAFBC4F0036858D /* AddPersonViewModel.swift in Sources */,
