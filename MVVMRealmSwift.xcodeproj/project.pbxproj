@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		982BFF1A1EAFA3590036858D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF191EAFA3590036858D /* AppDelegate.swift */; };
-		982BFF1C1EAFA3590036858D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF1B1EAFA3590036858D /* ViewController.swift */; };
 		982BFF1F1EAFA3590036858D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982BFF1D1EAFA3590036858D /* Main.storyboard */; };
 		982BFF211EAFA3590036858D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982BFF201EAFA3590036858D /* Assets.xcassets */; };
 		982BFF241EAFA3590036858D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982BFF221EAFA3590036858D /* LaunchScreen.storyboard */; };
+		982BFF2F1EAFA4550036858D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF2E1EAFA4550036858D /* Person.swift */; };
+		982BFF311EAFA54F0036858D /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF301EAFA54F0036858D /* Car.swift */; };
+		982BFF341EAFA7A40036858D /* PersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF331EAFA7A40036858D /* PersonTableViewController.swift */; };
+		982BFF361EAFA8C70036858D /* PersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF351EAFA8C70036858D /* PersonViewModel.swift */; };
+		982BFF381EAFA9E60036858D /* PersonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF371EAFA9E60036858D /* PersonModel.swift */; };
+		982BFF3D1EAFB5EE0036858D /* AddPersonTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF3C1EAFB5ED0036858D /* AddPersonTableViewController.swift */; };
+		982BFF421EAFBC4F0036858D /* AddPersonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */; };
+		AEDCB78A192B837BA3103ACD /* Pods_MVVMRealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 398D02E7A4F7924CDD3F810E /* Pods_MVVMRealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		398D02E7A4F7924CDD3F810E /* Pods_MVVMRealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMRealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E3CE2CDB0AD7399702E1B7 /* Pods-MVVMRealmSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRealmSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRealmSwift/Pods-MVVMRealmSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		598E848DDE595DB97C5E3E48 /* Pods-MVVMRealmSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMRealmSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVMRealmSwift/Pods-MVVMRealmSwift.release.xcconfig"; sourceTree = "<group>"; };
 		982BFF161EAFA3590036858D /* MVVMRealmSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMRealmSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		982BFF191EAFA3590036858D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		982BFF1B1EAFA3590036858D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		982BFF1E1EAFA3590036858D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		982BFF201EAFA3590036858D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		982BFF231EAFA3590036858D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		982BFF251EAFA3590036858D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982BFF2E1EAFA4550036858D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		982BFF301EAFA54F0036858D /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		982BFF331EAFA7A40036858D /* PersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewController.swift; sourceTree = "<group>"; };
+		982BFF351EAFA8C70036858D /* PersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewModel.swift; sourceTree = "<group>"; };
+		982BFF371EAFA9E60036858D /* PersonModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonModel.swift; sourceTree = "<group>"; };
+		982BFF3C1EAFB5ED0036858D /* AddPersonTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonTableViewController.swift; sourceTree = "<group>"; };
+		982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPersonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEDCB78A192B837BA3103ACD /* Pods_MVVMRealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6286F61AD3D1C3BF42339730 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				398D02E7A4F7924CDD3F810E /* Pods_MVVMRealmSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		982BFF0D1EAFA3590036858D = {
 			isa = PBXGroup;
 			children = (
 				982BFF181EAFA3590036858D /* MVVMRealmSwift */,
+				982BFF3F1EAFB6F90036858D /* Supporting Files */,
 				982BFF171EAFA3590036858D /* Products */,
+				9FB6A2DCDE241A636765A7E6 /* Pods */,
+				6286F61AD3D1C3BF42339730 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +82,101 @@
 		982BFF181EAFA3590036858D /* MVVMRealmSwift */ = {
 			isa = PBXGroup;
 			children = (
-				982BFF191EAFA3590036858D /* AppDelegate.swift */,
-				982BFF1B1EAFA3590036858D /* ViewController.swift */,
-				982BFF1D1EAFA3590036858D /* Main.storyboard */,
-				982BFF201EAFA3590036858D /* Assets.xcassets */,
-				982BFF221EAFA3590036858D /* LaunchScreen.storyboard */,
-				982BFF251EAFA3590036858D /* Info.plist */,
+				982BFF451EAFBC960036858D /* Add Person View Model */,
+				982BFF441EAFBC7F0036858D /* Person Model */,
+				982BFF401EAFB70C0036858D /* StoryBoard */,
+				982BFF3E1EAFB6E80036858D /* Application Delegate */,
+				982BFF431EAFBC690036858D /* Person View Model */,
+				982BFF3B1EAFB5CF0036858D /* Add Person */,
+				982BFF321EAFA7870036858D /* Person Table */,
+				982BFF2D1EAFA43E0036858D /* Data Model */,
 			);
 			path = MVVMRealmSwift;
+			sourceTree = "<group>";
+		};
+		982BFF2D1EAFA43E0036858D /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF2E1EAFA4550036858D /* Person.swift */,
+				982BFF301EAFA54F0036858D /* Car.swift */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		982BFF321EAFA7870036858D /* Person Table */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF331EAFA7A40036858D /* PersonTableViewController.swift */,
+			);
+			name = "Person Table";
+			sourceTree = "<group>";
+		};
+		982BFF3B1EAFB5CF0036858D /* Add Person */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF3C1EAFB5ED0036858D /* AddPersonTableViewController.swift */,
+			);
+			name = "Add Person";
+			sourceTree = "<group>";
+		};
+		982BFF3E1EAFB6E80036858D /* Application Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF191EAFA3590036858D /* AppDelegate.swift */,
+				982BFF221EAFA3590036858D /* LaunchScreen.storyboard */,
+			);
+			name = "Application Delegate";
+			sourceTree = "<group>";
+		};
+		982BFF3F1EAFB6F90036858D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF251EAFA3590036858D /* Info.plist */,
+				982BFF201EAFA3590036858D /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			path = MVVMRealmSwift;
+			sourceTree = "<group>";
+		};
+		982BFF401EAFB70C0036858D /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF1D1EAFA3590036858D /* Main.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
+		982BFF431EAFBC690036858D /* Person View Model */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF351EAFA8C70036858D /* PersonViewModel.swift */,
+			);
+			name = "Person View Model";
+			sourceTree = "<group>";
+		};
+		982BFF441EAFBC7F0036858D /* Person Model */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF371EAFA9E60036858D /* PersonModel.swift */,
+			);
+			name = "Person Model";
+			sourceTree = "<group>";
+		};
+		982BFF451EAFBC960036858D /* Add Person View Model */ = {
+			isa = PBXGroup;
+			children = (
+				982BFF411EAFBC4F0036858D /* AddPersonViewModel.swift */,
+			);
+			name = "Add Person View Model";
+			sourceTree = "<group>";
+		};
+		9FB6A2DCDE241A636765A7E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39E3CE2CDB0AD7399702E1B7 /* Pods-MVVMRealmSwift.debug.xcconfig */,
+				598E848DDE595DB97C5E3E48 /* Pods-MVVMRealmSwift.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 982BFF281EAFA3590036858D /* Build configuration list for PBXNativeTarget "MVVMRealmSwift" */;
 			buildPhases = (
+				09AA7BD48AFDB98259BE6E32 /* [CP] Check Pods Manifest.lock */,
 				982BFF121EAFA3590036858D /* Sources */,
 				982BFF131EAFA3590036858D /* Frameworks */,
 				982BFF141EAFA3590036858D /* Resources */,
+				1A6978E8F2FC6535B5B2E80C /* [CP] Embed Pods Frameworks */,
+				87A35FAA000D554D229674FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,13 +250,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09AA7BD48AFDB98259BE6E32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A6978E8F2FC6535B5B2E80C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMRealmSwift/Pods-MVVMRealmSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A35FAA000D554D229674FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MVVMRealmSwift/Pods-MVVMRealmSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		982BFF121EAFA3590036858D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982BFF1C1EAFA3590036858D /* ViewController.swift in Sources */,
+				982BFF381EAFA9E60036858D /* PersonModel.swift in Sources */,
+				982BFF341EAFA7A40036858D /* PersonTableViewController.swift in Sources */,
+				982BFF361EAFA8C70036858D /* PersonViewModel.swift in Sources */,
+				982BFF3D1EAFB5EE0036858D /* AddPersonTableViewController.swift in Sources */,
+				982BFF2F1EAFA4550036858D /* Person.swift in Sources */,
+				982BFF311EAFA54F0036858D /* Car.swift in Sources */,
 				982BFF1A1EAFA3590036858D /* AppDelegate.swift in Sources */,
+				982BFF421EAFBC4F0036858D /* AddPersonViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +431,7 @@
 		};
 		982BFF291EAFA3590036858D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39E3CE2CDB0AD7399702E1B7 /* Pods-MVVMRealmSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
@@ -272,6 +445,7 @@
 		};
 		982BFF2A1EAFA3590036858D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 598E848DDE595DB97C5E3E48 /* Pods-MVVMRealmSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 374A5BSW36;
@@ -302,6 +476,7 @@
 				982BFF2A1EAFA3590036858D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
