@@ -38,7 +38,7 @@ class TestTableViewController: UITableViewController {
     
 }
 
-extension PersonTableViewController {
+extension TestTableViewController {
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
